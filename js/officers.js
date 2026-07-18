@@ -7,7 +7,7 @@ const officersData = [
         image: "assets/ProfilePics/Guhan.png",
         bio: "Hey y’all! I’m a taekwondo instructor & artist, and I love basketball and cleaning! I’m really interested in how math and computer science can be used together, and I love to talk!",
         favText: "Computational Mathematics",
-        achievements: ["USACO Gold", "2x UIL CS Advanced Top 10 Placement", "MIT Battlecode"]
+        achievements: ["3rd Place Team @ UIL State", "USACO Gold", "2x UIL CS Advanced Top 10 Placement"]
     },
     {
         name: "Nathan Yan",
@@ -16,16 +16,16 @@ const officersData = [
         image: "assets/ProfilePics/Nathan.jpg",
         bio: "I am Nathan Yan and I love petting cats. I also like math and competitive programming.",
         favText: "DSA (particularly Graph Theory and other discrete math) and C++",
-        achievements: ["USACO Camper", "MIT Battlecode 1st Place HS Team", "Candidate Master on CodeForces"]
+        achievements: ["3rd Place Team @ UIL State", "USACO Camper", "MIT Battlecode 1st Place HS Team", "Candidate Master on CodeForces"]
     },
     {
         name: "Andrew Yoon",
         title: "Vice President",
         grade: "Junior",
         image: "assets/ProfilePics/Andrew.jpg",
-        bio: "I’m learning computer science because I want to make robots that combine the best of both AI and heuristic algorithms! One hobby I have is designing and 3D-printing cool things from popular culture! Feel free to use <a href=\"https://uil-legends-api.onrender.com\" target=\"_blank\">UIL Legends</a> for some UIl CS prep!",
-        favText: "Graph Theory, Java, C++",
-        achievements: ["USACO Silver", "LM CodeQuest Adv. 2nd Place Team", "HPE CodeWars Adv. 4th Place Team"]
+        bio: "Embedded systems nerd who loves electronics and web dev. I also spend a \"healthy\" amount of time in the Neuro-sama community. Feel free to use <a href=\"https://uil-legends-api.onrender.com\" target=\"_blank\">UIL Legends</a> for some UIl CS prep!",
+        favText: "Graph Theory, Java, C#",
+        achievements: ["3rd Place Team @ UIL State", "USACO Silver", "LM CodeQuest Adv. 2nd Place Team", "HPE CodeWars Adv. 4th Place Team"]
     },
     {
         name: "Fengqi Yang",
@@ -50,9 +50,9 @@ const officersData = [
         //title: "Officer",
         grade: "Junior",
         image: "assets/ProfilePics/Nicolas.png",
-        bio: "Hi, I'm Joban and I like to code, draw, and create my own software. Some of my hobbies include competitive programming and listening to music.",
-        favText: "Data Structures & Web Dev",
-        achievements: ["USACO Silver", "LM CodeQuest Nov. 2nd Place"]
+        bio: "Howdy y’all! I’m super passionate about using code to make our communities more efficient and more welcoming. I also love gardening, hiking, and parrots!",
+        favText: "Data Structures & Swift",
+        achievements: ["2nd Place Java MCQ Award"]
     },
     {
         name: "Ian Ko",
