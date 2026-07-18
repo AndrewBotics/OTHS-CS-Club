@@ -1,0 +1,158 @@
+header, .navbar {
+    background-color: #02a3a7;
+    color: #f7fdff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box; /* important! makes padding count inside the width */
+    overflow-x: hidden; /* optional: hides accidental horizontal scroll */
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-spacer {
+    height: 50px;
+    width: 100%;
+}
+
+header h1, header nav a {
+    color: #f7fdff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+header nav a {
+    transition: color 0.3s ease; /* add this to the base link */
+}
+
+header nav a:hover {
+    color: #072b40;
+}
+
+div.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+
+div.navbar > div {
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+h1 {
+    font-size:28px;
+    color:var(--text-emphasis);
+}
+
+nav {
+    font-size:17px;
+    display: flex;
+    gap:50px;
+}
+
+.logo {
+    width:50px;
+    height:50px;
+}
+
+/* Style for logo/title link in navbar */
+.navbar a.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+/* do not remove this, comment it out if u want logo bigger on header */
+a.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+a.logo-link img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1400px) {
+    div.navbar {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1000px) {
+    div.navbar {
+        gap: 0;
+        justify-content: space-between;
+    }
+    h1,
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        font-size: 15px;
+        gap: 1.5rem !important;
+    }
+
+    .header-spacer {
+    height: 95px;
+    width: 100%;
+}
+}
+
+ @media (max-width: 768px) {
+    header,
+    .navbar {
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+        align-items: center; /* Center both logo and nav horizontally */
+    }
+
+    .navbar {
+        gap: 1rem !important;
+    }
+
+    h1,
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        font-size: 14px;
+        gap: 1rem !important;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+        padding: 0.5rem 0;
+        justify-content: center; /* Center nav items */
+    }
+
+    nav a {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 420px) {
+    nav {
+        justify-content: flex-start; 
+        padding-left: 0;
+    }
+}
+

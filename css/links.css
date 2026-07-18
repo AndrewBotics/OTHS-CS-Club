@@ -1,0 +1,318 @@
+/* Hero Section */
+.hero-section {
+    color: var(--text-light);
+    padding: 4rem 0 1rem 0;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+    color: var(--text-emphasis);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.95;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.2s forwards;
+    color: var(--text-standard);
+}
+
+
+/* Divider line between sections */
+.hero-divider {
+    width: 30%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #cedade, transparent);
+    opacity: 0.9;
+    margin: 2.5rem auto 0 auto;
+    border: none;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Links Section */
+.links-section {
+    padding: 2rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.link-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.link-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* .link-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.link-card:hover::before {
+    opacity: 1;
+} */
+
+.link-icon {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin: 0 auto 1.5rem auto;
+    transition: all 0.3s ease;
+}
+
+.link-icon i {
+    font-size: 2.5rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+    font-weight: 900;
+    font-style: normal !important;
+}
+
+/* Specific colors for each platform */
+
+
+.link-card:nth-child(1) .link-icon i {
+    color: #7289DA !important; /* Discord brand color */
+}
+
+.link-card:nth-child(2) .link-icon i {
+    color: #5ba5eb !important; /* Remind/notification color */
+}
+
+.link-card:nth-child(3) .link-icon i {
+    color: #E4405F !important; /* Instagram brand color */
+}
+
+.link-card:nth-child(4) .link-icon i {
+    color: var(--text-emphasis) !important; /* pt card color */
+}
+
+.link-card:nth-child(5) .link-icon i {
+    color: var(--text-emphasis) !important; 
+}
+
+.link-card:nth-child(6) .link-icon i {
+    color: var(--text-emphasis) !important; 
+}
+
+.link-card:nth-child(7) .link-icon i {
+    color: var(--text-emphasis) !important; /* calendar color */
+     
+}
+.link-card:nth-child(8) .link-icon i {
+    color: var(--text-emphasis) !important; /* calendar color */
+     
+}
+/* 
+.link-card:hover .link-icon {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.link-card:hover .link-icon i {
+    transform: scale(1.1);
+} */
+
+.link-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-emphasis);
+}
+
+.link-card p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.link-button {
+    display: inline-block;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.link-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+/* .link-button:hover::before {
+    left: 0;
+} */
+
+.link-button:hover {
+    /* transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+    color: var(--text-emphasis);
+}
+
+/* Animation delays for staggered effect */
+.link-card:nth-child(1) {
+    animation: fadeInUp 0.6s ease 0.1s both;
+}
+
+.link-card:nth-child(2) {
+    animation: fadeInUp 0.6s ease 0.2s both;
+}
+
+.link-card:nth-child(3) {
+    animation: fadeInUp 0.6s ease 0.3s both;
+}
+
+.link-card:nth-child(4) {
+    animation: fadeInUp 0.6s ease 0.4s both;
+}
+
+.link-card:nth-child(5) {
+    animation: fadeInUp 0.6s ease .5s both;
+}
+
+.link-card:nth-child(6) {
+    animation: fadeInUp 0.6s ease .6s both;
+}
+
+.link-card:nth-child(7) {
+    animation: fadeInUp 0.6s ease .7s both;
+}
+.link-card:nth-child(8) {
+    animation: fadeInUp 0.6s ease .8s both;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero-divider {
+        width: 70%;
+    }
+
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .links-section {
+        padding: 2rem 1rem;
+    }
+    
+    .links-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .link-card {
+        padding: 1.5rem;
+    }
+    
+    .link-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 1rem;
+    }
+    
+    .link-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .link-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .link-card {
+        padding: 1rem;
+    }
+    
+    .link-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .link-card p {
+        font-size: 0.9rem;
+    }
+}

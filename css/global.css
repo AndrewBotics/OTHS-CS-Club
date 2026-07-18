@@ -1,0 +1,77 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+
+
+*, *::before, *::after {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+/* Apply Rubik font to all elements except Font Awesome icons */
+*:not([class*="fa-"]) {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+body, html {
+    font-family: 'Rubik', sans-serif;
+	overflow-x: hidden;
+    width: 100vw;
+	width:100%;
+	height:100%;
+	background-color: #072b40 !important;
+	
+}
+
+
+:root {
+    /*misc*/
+    --jet-black: #162428;
+
+    /*fill*/
+    --header:#02a3a7;
+    --backdrop: #072b40;
+
+    /*text*/
+    --text-emphasis: #12cdd6;
+    --text-standard: #cedade;
+}
+
