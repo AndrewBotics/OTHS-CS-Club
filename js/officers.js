@@ -5,9 +5,9 @@ const officersData = [
         title: "President",
         grade: "Senior",
         image: "assets/ProfilePics/Guhan.png",
-        bio: "Hey y’all! I’m a taekwondo instructor & artist, and I love basketball and cleaning! I’m really interested in how math and computer science can be used together, and I love to talk!",
+        bio: "Hey y’all! I’m a taekwondo instructor & artist, and I love basketball and movies! I’m really interested in how math and computer science can be used together, and I love to talk!",
         favText: "Computational Mathematics",
-        achievements: ["3rd Place Team @ UIL State", "USACO Gold", "2x UIL CS Advanced Top 10 Placement"]
+        achievements: ["3rd Place Team @ UIL State", "USACO Gold", "IIMOC Gold Award"]
     },
     {
         name: "Nathan Yan",
