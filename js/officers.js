@@ -20,7 +20,7 @@ const officersData = [
     },
     {
         name: "Andrew Yoon",
-        title: "Vice President",
+        title: "Senior Director",
         grade: "Junior",
         image: "assets/ProfilePics/Andrew.jpg",
         bio: "Embedded systems nerd who loves electronics and web dev. I also spend a \"healthy\" amount of time in the Neuro-sama community. Feel free to use <a href=\"https://uil-legends-api.onrender.com\" target=\"_blank\">UIL Legends</a> for some UIl CS prep!",
@@ -29,7 +29,7 @@ const officersData = [
     },
     {
         name: "Fengqi Yang",
-        //title: "Officer",
+        title: "Competition Director",
         grade: "Senior",
         image: "assets/ProfilePics/Fengqi.png",
         bio: "I love problem solving, especially through programming. I'm also a pianist and I enjoy helping others.",
@@ -38,7 +38,7 @@ const officersData = [
     },
     {
         name: "Siddhi Jain",
-        //title: "Officer",
+        title: "Software Dev Director",
         grade: "Junior",
         image: "assets/ProfilePics/Siddhi.jpeg",
         bio: "Hi, I am Siddhi! I love coding, creating impactful projects, and making Dubai Chocolates.",
@@ -47,7 +47,7 @@ const officersData = [
     },
     {
         name: "Nicolas Kaschny",
-        //title: "Officer",
+        title: "General Director",
         grade: "Junior",
         image: "assets/ProfilePics/Nicolas.png",
         bio: "Howdy y’all! I’m super passionate about using code to make our communities more efficient and more welcoming. I also love gardening, hiking, and parrots!",
@@ -56,7 +56,7 @@ const officersData = [
     },
     {
         name: "Ian Ko",
-        //title: "Officer",
+        title: "Instructional Director",
         grade: "Junior",
         image: "assets/ProfilePics/Ian.jpg",
         bio: "I'm passionate about learning and teaching niche fields such as quantum computing and theoretical computer science. I also love music, sports, weightlifting, and video games.",
@@ -65,7 +65,7 @@ const officersData = [
     },
     {
         name: "Shruti Srinivasan",
-        //title: "Officer",
+        title: "General Director",
         grade: "Junior",
         image: "assets/ProfilePics/Shruti.jpg",
         bio: "I am passionate about computer science because it is exciting to create things from the ground up and learn through trial and error. I also enjoy teaching others and hope to expand STEM education so more people have the opportunity to explore it. I like drawing and playing card games.",
@@ -74,7 +74,7 @@ const officersData = [
     },
     {
         name: "Calvin K.",
-        //title: "Officer",
+        title: "Junior Manager",
         grade: "Sophomore",
         image: "assets/ProfilePics/Calvin.webp",
         bio: "Hi! I enjoy using computer science to solve small, everyday problems; I also like competitive programing. Outside of CS, I enjoy listening to music, biking, reading, and playing tennis. (Check out <a href=\"https://lunaedu.net\" target=\"_blank\">Łuna</a>!)",
@@ -83,7 +83,7 @@ const officersData = [
     },
     {
         name: "Jobanpreet Pannu",
-        //title: "Officer",
+        title: "Software Dev Director",
         grade: "Sophomore",
         image: "assets/ProfilePics/Jobanpreet.png",
         bio: "Hi, I'm Joban and I like to code, draw, and create my own software. Some of my hobbies include competitive programming and listening to music.",
